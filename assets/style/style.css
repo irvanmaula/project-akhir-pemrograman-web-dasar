@@ -149,15 +149,15 @@ header .overlay {
 }
 
 
-section {
+article {
     padding: 50px 0;
 }
 
-section h3 {
+article h3 {
     font-size: 30px;
 }
 
-section h3::after {
+article h3::after {
     content: "";
     border-bottom: 5px solid #3B6B70;
     width: 52px;
@@ -174,7 +174,7 @@ section h3::after {
     margin: 0 auto;
 }
 
-section .konten-isi p {
+article .konten-isi p {
     font-style: normal;
 }
 
@@ -188,10 +188,6 @@ nav.putih .tombol-menu .garis {
 
 nav.putih ul li a {
     color: #333;
-}
-
-section.abu-abu {
-    background-color: #f6f6f6;
 }
 
 #wisata {
